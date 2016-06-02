@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Business_List1.0
+//
+//  Created by 冀柳冲 on 16/6/2.
+//  Copyright © 2016年 JLC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define Kwidth [UIScreen mainScreen].bounds.size.width
+#define Kheight [UIScreen mainScreen].bounds.size.height/8
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define BusinessUrl @"http://116.255.217.230:8081/tools/Form_ajax.ashx?action=suppliersrch&pindex=1&psize=2000&where=IsAudit=1%20and%20ISValid=1%20and%20DCode=%27410104%27"
+
+
+#endif /* PrefixHeader_pch */
