@@ -20,6 +20,8 @@
 		60602D2E1D0021EE00327C03 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 60602D2C1D0021EE00327C03 /* Phone.m */; };
 		60602D331D004B0700327C03 /* AFNtool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60602D301D004B0700327C03 /* AFNtool.m */; };
 		60602D341D004B0700327C03 /* DataBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60602D321D004B0700327C03 /* DataBaseTool.m */; };
+		608D8B1C1D00607100ABF95D /* BusInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D8B1B1D00607100ABF95D /* BusInfoViewController.m */; };
+		608D8B1F1D00622C00ABF95D /* BusGroupHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D8B1E1D00622C00ABF95D /* BusGroupHeaderView.m */; };
 		AC80541E4CA28DE1374AAF5F /* Pods_Business_List1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A21ABEE656D6791B09AB0 /* Pods_Business_List1_0.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,10 @@
 		60602D301D004B0700327C03 /* AFNtool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNtool.m; sourceTree = "<group>"; };
 		60602D311D004B0700327C03 /* DataBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseTool.h; sourceTree = "<group>"; };
 		60602D321D004B0700327C03 /* DataBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseTool.m; sourceTree = "<group>"; };
+		608D8B1A1D00607100ABF95D /* BusInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusInfoViewController.h; sourceTree = "<group>"; };
+		608D8B1B1D00607100ABF95D /* BusInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusInfoViewController.m; sourceTree = "<group>"; };
+		608D8B1D1D00622C00ABF95D /* BusGroupHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusGroupHeaderView.h; sourceTree = "<group>"; };
+		608D8B1E1D00622C00ABF95D /* BusGroupHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusGroupHeaderView.m; sourceTree = "<group>"; };
 		6F9A21ABEE656D6791B09AB0 /* Pods_Business_List1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Business_List1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ECBDBC84862151DC5745D61 /* Pods-Business_List1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business_List1.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Business_List1.0/Pods-Business_List1.0.debug.xcconfig"; sourceTree = "<group>"; };
 		A2879CFBA72D5B8D3A997B7A /* Pods-Business_List1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business_List1.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Business_List1.0/Pods-Business_List1.0.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +138,8 @@
 			children = (
 				60602D1D1D001F8500327C03 /* BusinessViewController.h */,
 				60602D1E1D001F8500327C03 /* BusinessViewController.m */,
+				608D8B1A1D00607100ABF95D /* BusInfoViewController.h */,
+				608D8B1B1D00607100ABF95D /* BusInfoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,6 +153,8 @@
 				60602D321D004B0700327C03 /* DataBaseTool.m */,
 				60162EFE1D0052AA00E58E56 /* NetStatusHelper.h */,
 				60162EFF1D0052AA00E58E56 /* NetStatusHelper.m */,
+				608D8B1D1D00622C00ABF95D /* BusGroupHeaderView.h */,
+				608D8B1E1D00622C00ABF95D /* BusGroupHeaderView.m */,
 				60602D251D00208C00327C03 /* PrefixHeader.pch */,
 			);
 			path = Helper;
@@ -300,7 +310,9 @@
 				60162F031D0052FF00E58E56 /* Account.m in Sources */,
 				60602D1F1D001F8500327C03 /* BusinessViewController.m in Sources */,
 				60162F061D0058BD00E58E56 /* BusinessGroupModel.m in Sources */,
+				608D8B1F1D00622C00ABF95D /* BusGroupHeaderView.m in Sources */,
 				60602D281D00211200327C03 /* BusinessTableViewCell.m in Sources */,
+				608D8B1C1D00607100ABF95D /* BusInfoViewController.m in Sources */,
 				60602D341D004B0700327C03 /* DataBaseTool.m in Sources */,
 				60602D111D001F6300327C03 /* AppDelegate.m in Sources */,
 				60602D2D1D0021EE00327C03 /* BusinessModel.m in Sources */,

@@ -10,4 +10,19 @@
 
 @implementation BusinessGroupModel
 
+- (instancetype)initWithDictionary:(NSDictionary *)dic{
+    if (self = [super init]) {
+        [self setValuesForKeysWithDictionary:dic];
+    }
+    return self;
+}
+
++(instancetype)businessModelWithDictionary:(NSDictionary *)dic{
+    return  [[self alloc] initWithDictionary:dic];
+}
+
+
+
+
+
 @end
